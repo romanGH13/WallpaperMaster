@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TheMovieDB</string>
+
+    <string name="top">Топ</string>
+    <string name="popular">Популярное</string>
+    <string name="upcoming">Скоро</string>
+    <string name="now_playing">Сейчас</string>
+
+    <string name="example_watch_video">Смотреть видео</string>
+    <string name="example_movie_title">Название фильма</string>
+    <string name="example_short_item_description">Рейтинг: 9.9 (999)
+        \nДата выхода: 1992-09-16</string>
+    <string name="example_overview">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="example_genre">Драма
+        \nКомедия
+        \nЭкшн</string>
+    <string name="example_tag_line">Слоган: И даже то что быть не может, однажды тоже может быть.</string>
+    <string name="example_vote_average">Рейтинг: 9.9 (999)</string>
+    <string name="example_release_date">Дата выхода: 2018-01-01</string>
+    <string name="example_runtime">Длительность: 120 мин.</string>
+    <string name="example_budget">Бюджет: 1000000$</string>
+    <string name="example_revenue">Сборы: 10000000000$</string>
+    <string name="example_status">Статус: Released</string>
+
+    <string name="short_item_description">Рейтинг: %1$.1f (%2$d)\nДата выхода: %3$s</string>
+    <string name="form_for_title">%1$s\n(%2$s)</string>
+    <string name="tag_line">Слоган: %1$s</string>
+    <string name="vote_average">Рейтинг: %1$.1f (%2$d)</string>
+    <string name="release_date">Дата выхода: %1$s</string>
+    <string name="runtime">Длительность: %1$d мин.</string>
+    <string name="budget">Бюджет: $%1$d</string>
+    <string name="revenue">Сборы: $%1$d</string>
+    <string name="status">Статус: %1$s</string>
+
+    <string name="watch_video">Смотреть видео №%1$d</string>
+    <string name="search">Поиск</string>
+
+</resources>

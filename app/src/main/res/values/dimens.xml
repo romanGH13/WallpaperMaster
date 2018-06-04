@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_bottom">5dp</dimen>
+
+    <dimen name="small_margin">3dp</dimen>
+    <dimen name="middle_margin">5dp</dimen>
+    <dimen name="large_margin">7dp</dimen>
+    <dimen name="huge_margin">10dp</dimen>
+
+    <dimen name="youtube_list_textview_height">25dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+
+    <dimen name="card_small_corner_radius">5dp</dimen>
+    <dimen name="card_small_elevation">3dp</dimen>
+    <dimen name="card_large_corner_radius">10dp</dimen>
+    <dimen name="card_large_elevation">5dp</dimen>
+
+    <dimen name="large_poster_width">150dp</dimen>
+    <dimen name="large_poster_height">225dp</dimen>
+    <dimen name="small_poster_width">100dp</dimen>
+    <dimen name="small_poster_height">150dp</dimen>
+
+    <dimen name="movie_title_size">20dp</dimen>
+    <dimen name="movie_description_size">15dp</dimen>
+    <dimen name="movie_overview_size">16dp</dimen>
+    <dimen name="other_text_size">18dp</dimen>
+
+</resources>

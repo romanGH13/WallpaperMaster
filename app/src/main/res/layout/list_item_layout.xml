@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="@dimen/card_small_corner_radius"
+    card_view:cardElevation="@dimen/card_small_elevation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="@dimen/small_poster_width"
+            android:layout_height="@dimen/small_poster_height"
+            android:layout_margin="@dimen/small_margin"
+            tools:src="@drawable/the_movie_db" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/middle_margin"
+            android:layout_marginRight="@dimen/middle_margin"
+            android:layout_toRightOf="@+id/poster"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/movie_title_size"
+            tools:text="@string/example_movie_title" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_margin="@dimen/middle_margin"
+            android:layout_toRightOf="@id/poster"
+            android:textSize="@dimen/movie_description_size"
+            tools:text="@string/example_short_item_description" />
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:layout_margin="@dimen/middle_margin"
+            android:layout_toRightOf="@id/poster"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/movie_description_size"
+            tools:text="@string/example_overview" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

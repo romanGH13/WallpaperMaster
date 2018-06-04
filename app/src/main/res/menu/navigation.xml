@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/topScreen"
+        android:icon="@drawable/top_list_24dp"
+        android:title="@string/top" />
+
+    <item
+        android:id="@+id/popularScreen"
+        android:icon="@drawable/popular_24dp"
+        android:title="@string/popular" />
+
+    <item
+        android:id="@+id/upcomingScreen"
+        android:icon="@drawable/new_24dp"
+        android:title="@string/upcoming" />
+
+    <item
+        android:id="@+id/nowPlayingScreen"
+        android:icon="@drawable/now_playing_24dp"
+        android:title="@string/now_playing" />
+
+</menu>
